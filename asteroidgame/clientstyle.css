@@ -1,0 +1,40 @@
+.canvas{
+    background-color: black;
+    border: 5px solid goldenrod;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color: #404040;
+}
+
+.box{
+    border: 5px solid goldenrod;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(270px, -254px);
+    background-color: black;
+}
+
+.leaderboard{
+    color: white;
+    font-size: x-large;
+}
+
+.label{
+    text-align: center;
+    color:white;
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

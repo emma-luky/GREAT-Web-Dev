@@ -1,0 +1,109 @@
+html {
+  background-color: darkseagreen;
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+h2 {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+
+.answer {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  visibility: hidden;
+  color: white;
+  width: 100px;
+}
+
+.blackCircle,
+.whiteCircle,
+.shiny,
+.shiny2 {
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+}
+
+.blackCircle {
+  width: 400px;
+  height: 400px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.whiteCircle {
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shiny {
+  width: 40px;
+  height: 40px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-325%, -325%);
+}
+
+.shiny2 {
+  width: 20px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-500%, -600%);
+}
+
+.button {
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 350%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+}
+
+.button:hover {
+  background: blue;
+  color: white;
+}
+
+.triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 150px solid blue;
+  visibility: hidden;
+}

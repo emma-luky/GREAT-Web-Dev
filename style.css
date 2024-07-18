@@ -1,0 +1,140 @@
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: darkgreen;
+  background-color: darkseagreen;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+}
+
+a:link {
+  color: darkviolet;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: crimson;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: fantasy;
+  font-size: 100px;
+  margin: 0;
+}
+
+ul,
+ol {
+  font-size: 25px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.chicken {
+  display: flex;
+  flex-direction: row;
+}
+
+.turtle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: fit-content;
+}
+
+.tiger-photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.butter-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.butter-column {
+  flex: 15%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.butter-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+button {
+  background-color: darkgreen;
+  color: #ffffff;
+  text-align: center;
+  position:sticky;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
